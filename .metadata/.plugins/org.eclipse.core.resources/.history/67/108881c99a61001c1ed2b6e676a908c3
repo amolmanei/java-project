@@ -1,0 +1,10 @@
+package com.ati.pune.automation.selenium.work;
+
+public class ScreenShotExmple {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

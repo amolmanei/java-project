@@ -1,0 +1,29 @@
+package com.ati.pune.automation.selenium.work;
+
+
+import java.io.File;
+
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import com.google.common.io.Files;
+
+public class ScreenShotExmple {
+
+	public static void main(String[] args) {
+		System.setProperty("webdriver.chrome.driver", "C:\\BasicJavaWork\\Automation\\Driver\\chromedriver.exe");
+	    WebDriver driver=new ChromeDriver();
+	    driver.get("https://facebook.com");
+	    System.out.println("Browser Opened");
+	    driver.manage().window().maximize();
+	    TakesScreenshot ts=(TakesScreenshot)driver;
+	    File srcFile=ts.getScreenshotAs(OutputType.FILE);
+	    String filepath=System.getProperty("user.dir")+"/sceenshot/"+"atiimage"+".png";
+	    
+	   File destFile=new File(filepath);
+	   FileUt
+	}
+
+}

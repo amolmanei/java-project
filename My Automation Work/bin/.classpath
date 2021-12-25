@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry excluding="src/" kind="src" path=""/>
+	<classpathentry kind="lib" path="C:/BasicJavaWork/Automation/Jar_s/msedge-selenium-tools-java-3.141.0.jar"/>
+	<classpathentry kind="lib" path="C:/BasicJavaWork/Automation/Jar_s/selenium-java-2.46.0-srcs.jar"/>
+	<classpathentry kind="lib" path="C:/BasicJavaWork/Automation/Jar_s/selenium-server-standalone-3.141.59.jar"/>
+	<classpathentry kind="lib" path="C:/Users/user/Desktop/New folder/screenshot"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

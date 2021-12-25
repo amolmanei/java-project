@@ -1,0 +1,10 @@
+package com.ati.basicwork;
+
+public class Shortcut {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
